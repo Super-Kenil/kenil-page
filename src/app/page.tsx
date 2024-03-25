@@ -24,8 +24,8 @@ const Home = () => {
       active: true,
     },
     {
-      name: 'Clones',
-      link: '/clones/builder-io',
+      name: 'Projects',
+      link: '/projects',
       active: false,
     },
     {
