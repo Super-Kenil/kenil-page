@@ -46,6 +46,14 @@ const Home = () => {
     greeting = 'Good Evening'
   }
 
+  console.info(`
+  ░░░    ░░░
+  ▒▒▒▒  ▒▒▒▒
+  ▒▒ ▒▒▒▒ ▒▒
+  ▓▓  ▓▓  ▓▓
+  ██      ██
+  `)
+
   return (
     <>
       <main className="flex bg-[#010101] min-h-screen text-white" style={{ fontFamily: "'Playfair Display','Poppins', serif" }}>
