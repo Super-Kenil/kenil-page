@@ -14,6 +14,10 @@ const Clones = () => {
       name: 'Propose',
       link: 'https://super-kenil.github.io/superkenil/propose'
     },
+    {
+      name: 'Super Detype',
+      link: 'https://www.npmjs.com/package/super-detype'
+    },
   ]
 
   return (
