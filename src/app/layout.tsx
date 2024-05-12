@@ -22,10 +22,10 @@ const getTechStack = () => {
 const description = `Fast-paced, creative web developer with ${calculateExperince()} of experience and extensive knowledge of ${getTechStack()}.`
 
 export const metadata: Metadata = {
-  title: 'Super Kenil',
+  title: 'Super Kenil (Kenil Sudani)',
   description: description,
   authors: {
-    name: 'Super Kenil',
+    name: 'Super Kenil (Kenil Sudani)',
     url: 'superkenil.com',
   },
   keywords: ['Kenil', 'Sudani', 'Super', 'React', 'Nextjs', 'Developer', 'Web Developer', 'MERN', 'Full Stack Developer'],

@@ -3,7 +3,7 @@ type ProjectType = {
   link: string
 }
 
-const Clones = () => {
+const Projects = () => {
 
   const projects: Array<ProjectType> = [
     {
@@ -23,12 +23,12 @@ const Clones = () => {
   return (
     <div className='text-white h-screen flex justify-center items-center flex-col'>
 
-      {projects.map((clone, idx) => (
-        <a key={idx} href={clone.link} target='_blank' className='hover:text-lime-400 text-lg mb-1.5'>{idx + 1}. {clone.name}</a>
+      {projects.map((project, idx) => (
+        <a key={idx} href={project.link} target='_blank' className='hover:text-lime-400 text-lg mb-1.5'>{idx + 1}. {project.name}</a>
       ))}
 
     </div>
   )
 }
 
-export default Clones
+export default Projects
